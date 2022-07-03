@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Odin Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero">
-        <div class="navbar">
-            <a href="">Header Logo</a>
-            <div class="header-links">
-                <a href="">header link one</a>
-                <a href="">header link two</a>
-                <a href="">header link three</a>
-            </div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>This website is awesome</h1>
-                <p>The main website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button>Sign up</button>
-            </div>
-            <img src="./assets/hero-banner">
+    <div class="navbar">
+        <a class="header-logo" href="">Header Logo</a>
+        <div class="header-links">
+            <a class="header-link" href="">header link one</a>
+            <a class="header-link" href="">header link two</a>
+            <a class="header-link" href="">header link three</a>
         </div>
     </div>
-    <div class="card-section">
-        <h2>Some random information</h2>
-        <ul>
+    <div class="hero section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="main-text">This website is awesome</h1>
+                <p class="secondary-text">The main website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button class="hero-signup">Sign up</button>
+            </div>
+            <img class="hero-img" src="./assets/hero-banner">
+        </div>
+    </div>
+    <div class="card-section section">
+        <h2 class="info-header">Some random information.</h2>
+        <ul class="cards-container">
             <li>
                 <div class="card-icon"></div>
                 <p>this is some subtext under an illustration or image</p>
@@ -44,22 +45,22 @@
             </li>
         </ul>
     </div>
-    <div class="quote-section">
+    <div class="quote-section section">
         <div class="quote-content">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p><strong>- Thor, God of Thunder</strong></p>
+            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p><strong class="quoter">- Thor, God of Thunder</strong></p>
         </div>
     </div>
-    <div class="cta-section">
+    <div class="cta-section section">
         <div class="cta-area">
             <div class="cta-text">
-                <strong>Call to action! It's time!</strong>
-                <p>Sign up for our product by clicking that button right over there!</p>
+                <strong class="cta-title">Call to action! It's time!</strong>
+                <p class="cta-para">Sign up for our product by clicking that button right over there!</p>
             </div>
-            <button>Sign up</button>
+            <button class="cta-sign">Sign up</button>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer section">
         Copyright © The Odin Project 2021
     </div>
 </body>
